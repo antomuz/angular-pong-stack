@@ -1,0 +1,15 @@
+<body>
+    <h1>{{title}}</h1>
+    <button class=button centered mat-button (click)="this.display()" [disabled]="this.disabledispJeu">Game</button>
+    <button class=button centered mat-button (click)="this.display()" [disabled]="this.disabledispLB">LeaderBoard</button>
+    <br>
+
+    <div [hidden]="hideregister">
+            <input name="name" type="text" [formControl]="name"><br>
+            <label for="name">Name:</label>
+            <button class="playButton" mat-button (click)="this.launchGame()">PLAY</button>
+    </div>
+
+    <app-jeu *ngIf="this.dispJeu"></app-jeu>
+    <app-leader-board *ngIf="this.dispLB"></app-leader-board>
+</body>

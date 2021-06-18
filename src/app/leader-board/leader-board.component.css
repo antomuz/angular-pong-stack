@@ -1,0 +1,29 @@
+
+.scoreBoard {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+}
+.names {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 35%;
+    border-style: solid;
+}
+
+.scores {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 35%;
+    left: 50%;
+    border-style: solid;
+}
+h4 {
+    margin: 0;
+    padding: 3.7%;
+    border-style: solid;
+
+}

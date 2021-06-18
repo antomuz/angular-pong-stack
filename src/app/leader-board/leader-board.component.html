@@ -1,0 +1,10 @@
+<div class=scoreBoard>
+    <div class=names>
+        <h4>Name</h4>
+        <h4 *ngFor="let player of this.PLayersOrdered" >{{player.getName()}}</h4>
+    </div>
+    <div class=scores>
+        <h4>Score</h4>
+        <h4 *ngFor="let player of this.PLayersOrdered">{{player.getScore()}}</h4>
+    </div>
+</div>

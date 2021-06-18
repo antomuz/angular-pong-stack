@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.button {
+  position: relative;
+  width: 50%;
+}
+
+div {
+  position: absolute;
+  width: 12%;
+  left: 44%;
+  height: 12%;
+  top: 40%;
+
+  border-color: white;
+  border-style: solid;
+}
+
+.playButton {
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  width: 55%;
+  text-align: center;
+
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-style: solid;
+}
+
+input {
+  position: absolute;
+  top: 30%;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-style: solid;
+}
+
+label {
+  position: absolute;
+  left: 10%;
+}
+
+body {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 99%;
+  height: 99%;
+}
+
+@media screen and (max-width: 1800px) {
+  .playButton {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  div {
+    left: 35%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    left: 30%;
+    width: 40%;
+  }
+}
